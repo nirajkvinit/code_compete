@@ -1,0 +1,22 @@
+{
+  "name": "coding-challenges",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --notify",
+    "test:watch": "jest --notify --watch"
+  },
+  "author": "RajaSekhar K, Unify Technologies",
+  "dependencies": {
+    "@types/jest": "^26.0.13",
+    "babel-cli": "^6.26.0",
+    "global": "^4.4.0",
+    "jest": "^26.4.2",
+    "ts-jest": "^26.3.0",
+    "typescript": "^4.0.2"
+  },
+  "devDependencies": {
+    "@babel/preset-typescript": "^7.10.4"
+  }
+}
