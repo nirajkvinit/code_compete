@@ -1,0 +1,18 @@
+Guidelines	- 
+    Think hard and try to solve the problem on your own, 
+    Do not try to find the solution on the Internet. 
+    Be honest about it	
+    - You must use TDD	
+    - You must use Typescript	
+    - You may however use internet to learn about TDD/Typescript	
+    - It's alright to fail. 
+    However, you should practice problem solving, and it helps if you break down the problem to smaller manageable chunks	
+    - You have one hour to solve the problem and mail the solution
+    
+    Explanation	
+    Narcissistic Number : An n-digit number that is the sum of the nth powers of its digits is called an n-narcissistic number. 
+        It is also sometimes known as an Armstrong number
+        Example: 	
+        153 = (1*1*1)+(5*5*5)+(3*3*3)	
+        1634 = (1*1*1*1)+(6*6*6*6)+(3*3*3*3)+(4*4*4*4)
+    Problem	Find all the Narcissistic Numbers between 10 to 10000
