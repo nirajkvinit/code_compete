@@ -8,14 +8,14 @@
 
 
 const isNarcissistic = (num: number): boolean => {
-    const str = num.toString();
-    let res = str.split('').reduce((acc, each) => acc + Math.pow(+each, str.length), 0);
+    const str: string = num.toString();
+    let res: number = str.split('').reduce((acc, each) => acc + Math.pow(+each, str.length), 0);
     return num === res;
 }
 
-const narcissisticPrinter = (start: number, end: number): Array<number> => {
-    const arr = [];
-    for(let i:number = start; i <= end; i++){
+const narcissisticPrinter = (start: number = 10, end: number = 10000): Array<number> => {
+    const arr: Array<number> = [];
+    for(let i:number = start; i <= end; i++) {
         isNarcissistic(i) && arr.push(i);
     }
     return arr;

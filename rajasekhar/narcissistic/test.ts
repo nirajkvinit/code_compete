@@ -29,8 +29,8 @@ test('values got is narcissistic', () => {
   const output = [
     153,  370,  371,
     407, 1634, 8208,
-   9474
- ]
+    9474
+  ];
   const numbers = narcissistic(10,10000);
   expect(JSON.stringify(numbers)).toEqual(JSON.stringify(output));
 });
